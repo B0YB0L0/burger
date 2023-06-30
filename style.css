@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    /* border: 2px solid; */
+    margin: 0 auto;
+    padding: 20px;
+    width: 1200px;
+    height: 10vh;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.row_col-3{
+    /* transform: scale(1); */
+    /* border: 2px solid; */
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #a7a1a1;
+}
+.row_col-3:hover{
+    position:relative;
+    /* transform: scaleY(1.1); */
+    bottom: 3px;
+    transition: .8s;
+}
+
+.combo_img{
+    display: flex;
+    border-radius: 14px;
+    width: 80px;
+    height: 80px;
+}
+
+.combo_img1{
+    display: flex;
+    /* border-radius: 20px; */
+    width: 80px;
+    height: 80px;
+}
+.combo_img2{
+    display: flex;
+    width: 80px;
+    height: 80px;
+}
+.combo_img3{
+    display: flex;
+    width: 80px;
+    height: 80px;
+}
+/* .combo_img4{
+    display: flex;
+    width: 50%;
+    height: 400px; */
+ 
+.img{
+    width: 40%;
+}
+.sum{
+    position:relative;
+    text-align: center;
+    align-items: center;
+    top: 25%;
+    justify-content: center;
+    width: 60%;
+}
+/* .first{
+    border: 2px solid;
+    width: 50%;
+    height: 50vh;
+} */
+.btn{
+    cursor: pointer;
+}
+
+.fs-4{
+    padding-left: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modol-container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 12;
+}
+.modol{
+    width: 50%;
+    height: 50%;
+    background-color: #fff;
+    padding:25px;
+    display: flex;
+    position: relative;
+}
+.modol_img{
+    border-radius: 10px;
+    width: 300px;
+    position: relative;
+}
+.modol-header{
+    /* position: fixed; */
+    width: 50%;
+}
+.btn1{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0;
+    right: -60px;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    /* background-color: transparent; */
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.BBQ{
+    position:relative;
+    width: 100%;
+    /* top: 10px;
+    left: 40; */
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+    margin: 20px 0px;
+}
+span{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+/* 
+.parent {
+    position: relative;
+}
+
+.input {
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    padding: 5px 10px;
+    width: 40px;
+    transition: width 0.3s ease;
+}
+
+.input::placeholder {
+    color: green;
+}
+
+.parent.active .input {
+    width: 200px;
+}
+
+.btn5 {
+    width: 300px;
+    height: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+    background: green;
+    display: inline;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    transition: transform 0.3s ease;
+}
+
+.parent.active .btn {
+    transform: translateX(210px);
+}
+
+.fa-solid {
+    color: #ffffff;
+} */
